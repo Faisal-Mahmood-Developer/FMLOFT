@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 155 38% 7%;
+    --foreground: 0 0% 88%;
+
+    --card: 155 30% 10%;
+    --card-foreground: 0 0% 88%;
+
+    --popover: 155 30% 10%;
+    --popover-foreground: 0 0% 88%;
+
+    --primary: 40 39% 55%;
+    --primary-foreground: 155 38% 7%;
+
+    --secondary: 60 4% 95%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 155 20% 14%;
+    --muted-foreground: 155 10% 55%;
+
+    --accent: 40 39% 55%;
+    --accent-foreground: 155 38% 7%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 39% 55%;
+    --input: 155 20% 18%;
+    --ring: 40 39% 55%;
+
+    --radius: 0rem;
+
+    --sidebar-background: 155 38% 7%;
+    --sidebar-foreground: 0 0% 88%;
+    --sidebar-primary: 40 39% 55%;
+    --sidebar-primary-foreground: 155 38% 7%;
+    --sidebar-accent: 155 20% 14%;
+    --sidebar-accent-foreground: 0 0% 88%;
+    --sidebar-border: 40 39% 55%;
+    --sidebar-ring: 40 39% 55%;
+
+    /* Custom tokens */
+    --surface: 60 4% 95%;
+    --surface-foreground: 0 0% 10%;
+    --gold-line: 40 39% 55%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .release-up {
+    animation: releaseUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  .release-up-delay-1 {
+    animation: releaseUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+  }
+
+  .release-up-delay-2 {
+    animation: releaseUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+  }
+
+  .release-up-delay-3 {
+    animation: releaseUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+  }
+
+  .finish-line {
+    animation: finishLine 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+
+@keyframes releaseUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes finishLine {
+  from {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  to {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
