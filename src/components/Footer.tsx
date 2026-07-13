@@ -15,7 +15,7 @@ const Footer = () => {
             </h3>
 
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
-              Racing Pigeon Loft in Lahore, Pakistan. Established 2018. Dedicated to breeding
+              Racing Pigeon Loft in Lahore, Pakistan. Established 2026. Dedicated to breeding
               and racing high-quality pigeons.
             </p>
 
@@ -104,7 +104,7 @@ const Footer = () => {
 
         <div className="border-t border-primary/20 mt-10 pt-6 text-center">
           <p className="font-body text-xs text-muted-foreground tracking-wider uppercase">
-            FM Loft © 2018 – Racing Pigeon Loft | Lahore, Pakistan | Phone: +92 308 3470930
+            FM Loft © 2026 – Racing Pigeon Loft | Lahore, Pakistan | Phone: +92 308 3470930
           </p>
         </div>
       </div>

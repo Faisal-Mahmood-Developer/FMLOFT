@@ -37,7 +37,7 @@ const App = () => (
           <Route path="/add-bird" element={<AddBird />} />         {/* Add new */}
           <Route path="/pedigree/:ring" element={<Pedigree />} />   {/* View pedigree */}
           <Route path="/my-birds" element={<MyBirds />} />
-          <Route path="/edit-bird/:ring" element={<EditBird />} />
+          <Route path="/edit-bird/:ring" element={<EditBird />} />  
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

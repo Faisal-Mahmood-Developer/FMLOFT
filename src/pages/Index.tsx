@@ -27,7 +27,7 @@ const Index = () => {
               Racing Pigeon Loft
             </p>
             <p className="release-up-delay-2 font-body text-base md:text-lg text-muted-foreground mt-6 max-w-xl leading-relaxed">
-              Racing Pigeon Loft in Lahore, Pakistan. Established 2018 by Faisal Mahmood —
+              Racing Pigeon Loft in Lahore, Pakistan. Established 2026 by Faisal Mahmood —
               dedicated to breeding champions and competing at the highest level.
             </p>
             <div className="release-up-delay-3 flex flex-col sm:flex-row gap-4 mt-8">
@@ -58,7 +58,7 @@ const Index = () => {
                 The Pursuit of Excellence
               </h2>
               <p className="font-body text-muted-foreground leading-relaxed mb-4">
-                FM Loft was founded in 2018 in Lahore, Pakistan by Faisal Mahmood with a singular
+                FM Loft was founded in 2026 in Lahore, Pakistan by Faisal Mahmood with a singular
                 vision: to breed and train racing pigeons capable of competing at the highest levels
                 of the sport.
               </p>
@@ -84,7 +84,7 @@ const Index = () => {
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-primary/30">
             {[
-              { value: "2018", label: "Established" },
+              { value: "2026", label: "Established" },
               { value: "Lahore", label: "Location" },
               { value: "Racing", label: "Discipline" },
               { value: "Elite", label: "Bloodlines" },

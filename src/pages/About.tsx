@@ -36,7 +36,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
                 <p>
-                  FM Loft was established in 2018 in Lahore, Pakistan by Faisal Mahmood. What
+                  FM Loft was established in 2026 in Lahore, Pakistan by Faisal Mahmood. What
                   began as a personal passion for racing pigeons has grown into a dedicated
                   facility focused on breeding high-quality birds and competing in Pakistan's
                   racing pigeon circuit.
@@ -73,7 +73,7 @@ const About = () => {
                   FM Loft
                 </p>
                 <p className="font-body text-sm text-muted-foreground mt-1">
-                  Faisal Mahmood · Est. 2018
+                  Faisal Mahmood · Est. 2026
                 </p>
               </div>
             </div>
